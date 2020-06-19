@@ -1,0 +1,22 @@
+{
+  "units": [
+    {
+      "unit_code": "90192",
+      "name_en": "hayat talaat",
+      "name_er": "حياة طلعت ",
+      "description_en": "",
+      "description_er": "وصف حالة حياة طلعت",
+      "unit_type": "صغرى",
+      "id": "FnnewCQ"
+    },
+    {
+      "unit_code": "62738",
+      "name_en": "hayat test",
+      "name_er": "حياة ",
+      "description_en": "",
+      "description_er": "وصف ان وجد\nوصف",
+      "unit_type": "صغرى",
+      "id": "Twp6IsI"
+    }
+  ]
+}

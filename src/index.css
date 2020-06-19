@@ -5,9 +5,60 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh !important;
+    background: #F6FAFD !important;
+    color: #A8AEB7 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.table {
+    direction: rtl;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #A8AEB7;
+    border: .4px solid #dee2e6;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px #dee2e6; /* this draws the table border  */ 
+}
+/* td {
+    border: 1px solid #ccc;
+} */
+
+.table thead th {
+  text-align: right;
+  color: #8d9299;
+}
+.table td {
+  text-align: right;
+  color: #A8AEB7 !important;
+}
+.table-title {
+  color: #8d9299 !important;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.add-unit button, .add-unit button:hover, .add-unit button:active, .add-unit button:focus {
+  background-color: #3EC67E;
+  border-color: #3EC67E;
+  padding-left: 30px;
+  padding-right: 30px;
+  outline: none;
+}
+.add-unit button:hover {
+opacity: .9;
+}
+.action i {
+  cursor: pointer;
+  opacity: .7;
+}
+.action i.fa-pencil {
+color: #33af6d;
+}
+.action i.fa-trash-o {
+  color: #af3343;
 }
